@@ -1,0 +1,238 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.header-logo{
+    width: 1130px;
+	margin: 0 auto;
+}
+.header-logo h2{
+	width: 200px;
+    height: 98px;
+    background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+}
+.header-logo h2 a{
+    display: block;
+    height: 98px;
+    text-indent: -9999em;
+}
+.main{
+	background-image: url(https://i8.mifile.cn/b2c-mimall-media/cd392f87b6584283a5a1fd285418b654.jpg);
+    width: 100%;
+    height: 588px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    left: 0;
+    top: 98px;
+}
+.main a{
+	display: block;
+    height: 588px;
+    text-indent: -9999em;
+}
+
+.tables-wrapper{
+    padding-bottom: 0;
+	position: relative;
+}
+.tables-wrapper .tables{
+	width: 1130px;
+	margin: 0 auto;
+    padding-top: 130px;
+}
+.tables-wrapper .tables .layout{
+	background-color: #fff;
+    margin: 0 auto 20px;
+    position: relative;
+	width: 410px;
+    min-height: 524px;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 14px;
+    z-index: 4;
+    
+}
+.tables .layout .tab-top{
+	padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #e0e0e0;
+}
+.tables .layout .tab-top a{
+    color: #666;
+}
+.tables .layout .tab-top .nav-link{
+    color: #f56600;
+}
+.tables .layout .tab-top .line{
+   	width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+    border: 1px solid #e0e0e0;
+}
+.tables .layout .tabs-con{
+    width: 348px;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+.tables .layout .tabs-con .portrait{
+	text-align: center;
+}
+.tables .layout .tabs-con .img-portrait{
+	display: none;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e3e3e3;
+    border-radius: 50%;
+    padding: 4px;
+    background: #fff;
+    position: relative;
+    z-index: 4;
+    margin: 0 auto;
+}
+.tables .layout .tabs-con .img-portrait .touxiang{
+    background: url(https://account.xiaomi.com/static/res/7c3e9b0/passport/acc-2014/img/n-avator-bg.png) 0 0 no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tables .layout .tabs-con .portrait p{
+    padding-top: 10px;
+}
+.tables .layout .tabs-con form{
+	position: relative;
+}
+.tables .layout .tabs-con form input{
+    width: 316px;
+    height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    margin-bottom: 14px;
+    margin-right: 0;
+    border: 1px solid #e0e0e0;
+}
+.tables .layout .tabs-con form button{
+	background-color: #ef5b00;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: 0 none;
+}
+.tables .layout .other_panel{
+	margin-top: -5px;
+}
+.tables .layout .other_panel{
+	overflow: hidden;
+    
+}
+.tables .layout .other_panel a:nth-child(1){
+	float: left;
+    color: #ef5b00;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+}
+.tables .layout .other_panel a:nth-child(2){	
+    color: #999;
+    float: right;
+}
+.tables .layout .other_panel a:nth-child(2) span:nth-child(1){	
+    margin-right: 5px;
+}
+.tables .layout .other_panel a:nth-child(2) span:nth-child(2){	
+    margin-left: 5px;
+}
+.tables .layout .other_panel a:nth-child(2) span:hover{
+	color: #f56600;
+}
+.layout .else{
+	width: 348px;
+    position: absolute;
+    bottom: 20px;
+    left: 31px;
+}
+.layout  .else .else-title{
+    border-top: 1px solid #e0e0e0;
+}
+.layout  .else .tit{
+	width: 85px;
+	position: absolute;
+	top: -10px;
+	left: 140px;
+    font-size: 14px;
+    color: #bbb;
+    background: #fff;
+    
+}
+.layout  .else .else-icon{
+    text-align: center;
+    padding-top: 20px;
+}
+.layout  .else .else-icon a{
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 17px; 
+    border-radius: 50%;
+    color: #757575;
+}
+.layout  .else .else-icon a i{
+    font-size: 30px;
+}
+.layout  .else .else-icon a .icon-logo-qq:hover{
+    color: #0288d1;
+}
+.layout  .else .else-icon a .icon-weibo:hover{
+    color: #d32f2f;
+}
+.layout  .else .else-icon a .icon-zhifubao:hover{
+    color: #0ae;
+}
+.layout  .else .else-icon a .icon-weixin:hover{
+    color: #00d20d;
+}
+/*尾部*/
+.footer{
+    background: #fff;
+    margin-top: 100px;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    color: #757575;
+        font-size: 14px;
+}
+.footer .f-list ul li{
+    display: inline-block;
+    color: #757575;
+}
+.footer .f-list ul li a{
+    display: inline-block;
+	padding: 0 10px;
+    color: #757575;
+}
+.footer .f-list ul li:nth-child(1) a{
+    color: #333;
+}
+.footer .f-list ul li a:hover{
+    color: #333;
+}
+.footer p{
+    padding: 10px;
+}
+.footer p a{
+    color: #757575;
+}
